@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMQzJFCdur6BvGYyRl50VCp",
+      "authorship_tag": "ABX9TyNQB1F8KqzUK5IWQ5hPShMu",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -94,8 +94,7 @@
     {
       "cell_type": "markdown",
       "source": [
-        "## expressions are just values combined with operators, and they always evaluate down to a single value. A data type is a category for values\n",
-        "![image.png](attachment:9557cb83-181e-4fdf-9b14-3821fef1527c.png)"
+        "## expressions are just values combined with operators, and they always evaluate down to a single value. A data type is a category for values"
       ],
       "metadata": {
         "id": "sz1Q33OB_9ev"
