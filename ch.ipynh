@@ -1,1 +1,465 @@
-
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNQB1F8KqzUK5IWQ5hPShMu",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/123hawaa/Automate-the-Boring-Stuff-with-Python/blob/master/ch.ipynh\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CyunXZoCkLXD",
+        "outputId": "5062d2e5-9e69-43bf-90c0-1450c9a6af8c"
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "7"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 1
+        }
+      ],
+      "source": [
+        "2+5"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#remainder\n",
+        "27//7"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bD1GWbUG_vw8",
+        "outputId": "2a7bbd99-67ee-4a5e-dac0-da39753dd599"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "27%7\n",
+        "#Integer"
+      ],
+      "metadata": {
+        "id": "vDnmvuML_zEc"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## expressions are just values combined with operators, and they always evaluate down to a single value. A data type is a category for values"
+      ],
+      "metadata": {
+        "id": "sz1Q33OB_9ev"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## String Concatenation\n",
+        "combines the text of the two strings"
+      ],
+      "metadata": {
+        "id": "Tp3m65dOAHi3"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('Hawaa' + 'Elamin')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "thgaXza1AIcQ",
+        "outputId": "ebc429d2-679b-454a-cd49-d203f845259a"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "HawaaElamin\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Storing Values in Variables\n",
+        "A variable is like a box in the computer’s memory where you can store a single value"
+      ],
+      "metadata": {
+        "id": "TMh7a83vBCkI"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "A=20"
+      ],
+      "metadata": {
+        "id": "vScJMZSKBDUg"
+      },
+      "execution_count": 4,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "B=30"
+      ],
+      "metadata": {
+        "id": "t0mfuqu_BRke"
+      },
+      "execution_count": 5,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "A+B"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "V3WSbPHLBT7q",
+        "outputId": "53fc7664-8fd5-4093-9b91-fcd4617bfe02"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "50"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name= 'hawaa'"
+      ],
+      "metadata": {
+        "id": "_9NJt9UNBV_C"
+      },
+      "execution_count": 7,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "S-PuzomGBdA4",
+        "outputId": "4e966753-947d-49b1-dbcd-6f1b1493e788"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'hawaa'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 8
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "you can name a variable anything as long as it obeys the following three rules:\n",
+        "\n",
+        "1.It can be only one word with no spaces.\n",
+        "\n",
+        "2.It can use only letters, numbers, and the underscore (_) character.\n",
+        "\n",
+        "3.It can’t begin with a number."
+      ],
+      "metadata": {
+        "id": "gZz9C-nHBkV3"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Now it’s time to create your first program! When the file editor window opens, enter the following into it:"
+      ],
+      "metadata": {
+        "id": "P8wwYdhJBp5n"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('Hello world')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ud7SMbfeBqtI",
+        "outputId": "6fae795f-d8e7-4556-e079-cd8b84ab6fd6"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello world\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name =input()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BnVc_xT1Bxci",
+        "outputId": "acf4fad0-3231-49db-8cfe-61b3176a23f6"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "hawaa\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        " print (' what is your name ', name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Kid5rq9yB0dM",
+        "outputId": "538ba907-044c-4d4e-9348-e47cd1d489f2"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            " what is your name  hawaa\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('whats your age ',input())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XaZ6q97oB35_",
+        "outputId": "3e5417af-d88c-4a6e-901e-b690e9196a06"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "20\n",
+            "whats your age  20\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('the length of your name is :', len(name))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xA_OuJrJCHIW",
+        "outputId": "4e2b8595-6d27-4d2c-e0b6-17d35ca0dae2"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "the length of your name is : 5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "E2accF3eC6iu"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# The str(), int(), and float() Functions"
+      ],
+      "metadata": {
+        "id": "dHN2OutCDEQt"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "string = str(39)"
+      ],
+      "metadata": {
+        "id": "Ufg4dJHqDF5f"
+      },
+      "execution_count": 17,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "int('30')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pbwV6fCSDIBT",
+        "outputId": "04f28337-9515-4b75-c3b3-323b23213380"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "30"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 16
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('your age is '+ string ) # concatenate an integer  with a string to pass to print()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "E9mAj7ouDKvy",
+        "outputId": "854c40b7-bfe1-421b-a6bd-6696343cd92f"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "your age is 39\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        " concatenate an integer such as 29 with a string to pass to print()"
+      ],
+      "metadata": {
+        "id": "P227v6RzDhhT"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
